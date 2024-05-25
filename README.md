@@ -2,7 +2,8 @@
 
 ## Wiring
 
-RGB led with common cathode is used
+RGB led with common cathode is used,
+mind the resistors, they're not shown here
 
 ```
 LED            ESP32
