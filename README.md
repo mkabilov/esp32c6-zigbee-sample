@@ -27,7 +27,7 @@ idf.py build
 
 ## Erase flash and flash:
 ```bash
- idf.py erase-flash flash
+idf.py erase-flash flash
 ```
 
 ## and optionally monitor:
