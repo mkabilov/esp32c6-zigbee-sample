@@ -15,12 +15,22 @@ LED_BLUE  -->  GPIO_NUM_23
 LED_GND   -->  GND
 ```
 
-## Build
+## Set the target to esp32-c6:
 ```bash
-idf.py build erase-flash flash
+idf.py set-target esp32c6
 ```
 
-optionally monitor:
+## Build:
+```bash
+idf.py build
+```
+
+## Erase flash and flash:
+```bash
+ idf.py erase-flash flash
+```
+
+## and optionally monitor:
 ```bash
 idf.py monitor
 ```
